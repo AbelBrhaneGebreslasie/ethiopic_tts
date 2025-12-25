@@ -1,0 +1,30 @@
+name: ethiopic_tts
+description: Offline Ethiopic TTS app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/ብ.mp3
+    - assets/audio/ር.mp3
+    - assets/audio/ሃ.mp3
+    - assets/audio/ነ.mp3
+    - assets/audio/ኣ.mp3
+    - assets/audio/ቤ.mp3
+    - assets/audio/ል.mp3
+    - assets/audio/።.mp3
